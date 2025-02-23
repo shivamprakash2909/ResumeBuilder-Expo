@@ -103,11 +103,8 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     padding: 25,
     borderRadius: 15,
-    shadowColor: "#000",
-    shadowOffset: { width: 0, height: 5 },
-    shadowOpacity: 0.2,
-    shadowRadius: 10,
-    elevation: 10,
+    boxShadow: "0px 5px 10px #050404", // Red shadow with opacity
+    elevation: 10, // Optional: For Android shadow
   },
   title: {
     fontSize: 26,

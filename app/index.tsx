@@ -40,7 +40,7 @@ export default function HomeScreen() {
         Need help?{" "}
         <Text
           style={styles.link}
-          // onPress={() => navigation.navigate("Help")}
+          onPress={() => router.replace("/help" as any)}
         >
           Contact Support
         </Text>

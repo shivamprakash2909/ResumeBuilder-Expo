@@ -7,23 +7,24 @@ export default function RootLayout() {
         name="AnimationScreen"
         options={{ headerShown: false }} // Hide header for the animation screen
       /> */}
-      {/* <Stack.Screen name="Help" options={{ title: "Help" }} /> */}
+
       <Stack.Screen name="signup/index" options={{ title: "Sign Up" }} />
       <Stack.Screen name="login/index" />
+      <Stack.Screen name="help/index" options={{ title: "Help" }} />
       <Stack.Screen name="github-info/index" />
       <Stack.Screen
         name="repository-selection/index"
         options={{ title: "Repositories" }}
       />
-      {/* <Stack.Screen name="MainInterface" /> */}
-      {/* <Stack.Screen
-        name="ProfileSettingsPage"
+      <Stack.Screen name="main-interface/index" />
+      <Stack.Screen
+        name="profile-settings/index"
         options={{ title: "Profile Settings" }}
-      /> */}
-      {/* <Stack.Screen
-        name="FinalResumePage"
+      />
+      <Stack.Screen
+        name="final-resume/index"
         options={{ title: "Final Resume" }}
-      /> */}
+      />
     </Stack>
   );
 }
